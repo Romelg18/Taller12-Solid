@@ -7,12 +7,12 @@ namespace DesignPatterns.Models
 {
     public class Car : Vehicle
     {
-        public override int Tires { get => 4; }
-        public int Year { get; internal set; }
+    public int Year { get; internal set; }
 
-        public Car(string color, string brand, string model, int Year) : base(color, brand, model)
-        {
-
-        }
+    public Car(string color, string brand, string model, int year) : base(color, brand, model)
+    {
+        Year = year;
     }
+    }
+
 }
