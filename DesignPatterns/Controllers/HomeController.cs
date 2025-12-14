@@ -42,7 +42,7 @@ namespace DesignPatterns.Controllers
                 .SetColor("red")
                 .SetBrand("Ford")
                 .SetModel("Mustang")
-                .SetYear(2023)
+                .SetYear(DateTime.Now.Year)
                 .Build();
             _vehicleRepository.AddVehicle(newCar);
             return Redirect("/");
