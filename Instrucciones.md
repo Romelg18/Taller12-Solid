@@ -14,3 +14,4 @@ Los requisitos son los siguientes:
   - Color: Red
   - Marca: Ford
   - Modelo: Escape
+Un nuevo equipo de full-stack developers estan migrando el core, a un modern web application como nextjs. Aplica los mismos conocimientos adquiridos para poder arreglar el boton de agregar vehiculo.
